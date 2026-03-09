@@ -48,7 +48,13 @@ html,body{width:100%;height:100%;background:var(--ink);overflow:hidden;font-fami
 .intro-tag{font-family:'Cinzel',serif;font-size:clamp(10px,2.4vw,15px);letter-spacing:clamp(6px,2vw,11px);color:rgba(212,168,67,.6);text-transform:uppercase;opacity:0;animation:popIn .7s .3s forwards;margin-bottom:clamp(5px,1.5vw,11px);}
 .intro-happy{font-family:'Great Vibes',cursive;font-size:clamp(36px,10vw,68px);color:var(--gold2);opacity:0;animation:popIn .9s .5s forwards;text-shadow:0 0 28px rgba(212,168,67,.5);line-height:1.1;}
 .intro-bday{font-family:'Great Vibes',cursive;font-size:clamp(32px,9vw,60px);color:var(--rose2);opacity:0;animation:popIn .9s .72s forwards;text-shadow:0 0 22px rgba(255,107,157,.45);line-height:1.1;margin-bottom:2px;}
-.intro-name{font-family:'Great Vibes',cursive;font-size:clamp(56px,16vw,112px);background:linear-gradient(120deg,#d4a843 0%,#f0cc6e 25%,#ff6b9d 55%,#c084fc 78%,#d4a843 100%);background-size:300% 300%;-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.05;filter:drop-shadow(0 0 26px rgba(255,107,157,.5));opacity:0;animation:popIn .9s 1s forwards,shimr 4s 1.9s linear infinite;margin-bottom:clamp(14px,4vw,28px);}
+.intro-name{font-family:'Great Vibes',cursive;font-size:clamp(40px,12vw,80px);background:linear-gradient(120deg,#d4a843 0%,#f0cc6e 25%,#ff6b9d 55%,#c084fc 78%,#d4a843 100%);background-size:300% 300%;-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.35;filter:drop-shadow(0 0 26px rgba(255,107,157,.5));opacity:0;animation:popIn .9s 1s forwards,shimr 4s 1.9s linear infinite;margin-bottom:clamp(14px,4vw,28px);}
+.intro-emoji{
+  font-size:clamp(12px,2vw,20px);
+  margin-bottom:4px;
+  letter-spacing:2px;
+  animation:eWave 2.5s ease-in-out infinite;
+}
 .intro-sparkles{display:flex;gap:clamp(5px,2vw,10px);opacity:0;animation:popIn .6s 1.3s forwards;margin-bottom:clamp(12px,3.2vw,22px);}
 .isp{font-size:clamp(13px,3.3vw,19px);animation:iSpn 2.5s ease-in-out infinite;}
 .isp:nth-child(2){animation-delay:.25s}.isp:nth-child(3){animation-delay:.5s}.isp:nth-child(4){animation-delay:.75s}.isp:nth-child(5){animation-delay:1s}
@@ -59,7 +65,7 @@ html,body{width:100%;height:100%;background:var(--ink);overflow:hidden;font-fami
 #s0{position:fixed;inset:0;z-index:10;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px 16px;opacity:0;pointer-events:none;transition:opacity 1s ease;}
 #s0.show{opacity:1;pointer-events:all;}
 .cake-hb{font-family:'Cinzel',serif;font-size:clamp(8px,2vw,13px);letter-spacing:clamp(4px,1.2vw,8px);color:var(--gold2);text-transform:uppercase;margin-bottom:2px;}
-.cake-name{font-family:'Great Vibes',cursive;font-size:clamp(46px,13vw,92px);background:linear-gradient(120deg,#d4a843,#f0cc6e,#ff6b9d,#c084fc,#d4a843);background-size:300% 300%;-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.05;filter:drop-shadow(0 0 18px rgba(255,107,157,.4));animation:shimr 4s linear infinite;margin-bottom:clamp(5px,1.8vw,12px);}
+.cake-name{font-family:'Great Vibes',cursive;font-size:clamp(20px,9vw,60px);background:linear-gradient(120deg,#d4a843,#f0cc6e,#ff6b9d,#c084fc,#d4a843);background-size:300% 300%;-webkit-background-clip:text;background-clip:text;color:transparent;line-height:1.35;filter:drop-shadow(0 0 18px rgba(255,107,157,.4));animation:shimr 4s linear infinite;margin-bottom:clamp(5px,1.8vw,12px);}
 .cscene{position:relative;width:clamp(148px,43vw,220px);height:clamp(168px,48vw,252px);animation:cflt 3s ease-in-out infinite;flex-shrink:0;margin-bottom:clamp(6px,1.8vw,12px);}
 .plate{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:108%;height:clamp(9px,2.5vw,15px);background:linear-gradient(180deg,#1e1235,#120a22);border:1px solid rgba(212,168,67,.28);border-radius:50%;box-shadow:0 4px 16px rgba(0,0,0,.6);}
 .t{position:absolute;left:50%;transform:translateX(-50%);border-radius:5px 5px 8px 8px;border:1px solid rgba(212,168,67,.14);}
@@ -184,6 +190,7 @@ html,body{width:100%;height:100%;background:var(--ink);overflow:hidden;font-fami
     <div class="intro-happy">Happy</div>
     <div class="intro-bday">Birthday</div>
     <div class="intro-name">Yashika</div>
+    <div class="intro-emoji">🎉 🥳 🎂</div>
   </div>
   <div class="intro-sparkles">
     <span class="isp">✦</span><span class="isp">🌸</span><span class="isp">✨</span><span class="isp">🌸</span><span class="isp">✦</span>
